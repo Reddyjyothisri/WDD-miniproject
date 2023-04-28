@@ -1,0 +1,87 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color:cornsilk; 
+  background-image: url('Reddy 1.jpeg');
+ 
+}  
+button {   
+       background-color:lightcoral;   
+       width: auto;  
+        color:black;   
+        padding: 6px;   
+        margin: 8px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {  
+         
+        border: 3px   
+    }   
+ input[type=text], input[type=password] {   
+        width: 30%;   
+        margin: 8px 0;  
+        padding: 6px;   
+        display: inline-block;   
+        border: 2px solid black;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 6px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+    width:30%;
+        padding: 25px;   
+        background-color: lightblue;
+       
+    }   
+    
+
+</style>
+</style>  
+<style>
+    h1 {
+      color: cornsilk;
+    }
+  </style> 
+</head>    
+<body>    
+    <center> <h1> Job At Your Door Step  </h1> </center>   
+    
+        <center>
+            
+        <div class="container">   
+            <form action="C:\Users\REDDY\Desktop\WDD\Miniproject Task 4\main page.html">   
+            <label>Username : </label>   
+            <input type="text" name="t1" id="" ng-model="name" minlength="3" maxlength="8" required>
+            <class="error" ng-show="f1.t1.$touched && f1.t1.$invalid">*Required<br>
+            <label>Password : </label>   
+            <input type="password" name="t3" id="" ng-model="password" minlength="6" required>
+            <class="error" ng-show="f1.t3.$touched && f1.t3.$invalid">*Required  <br>
+            
+                <button type="submit">Login</button>     
+        </form>
+            
+            <input type="checkbox" checked="checked"> Remember me  <br> 
+            <button type="button" class="cancelbtn"> Cancel</button>  
+            
+            Forgot <a href="Registration form.html"> password? </a>   <br>
+    
+            <button type="button" class="Register">Not having Account?</button>
+            <a href="user registration page.html">Register</a>
+        </div>  </center> 
+       
+</body>     
+</html>  
